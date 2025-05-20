@@ -23,6 +23,14 @@ This is a **static clone** of the homepage of the [JSpiders](https://jspiders.co
 ## 🚀 How to View
 
 1. Clone or download the repository.
-2. Open `index.html` in any modern web browser.
+2. Open `home.html` in any modern web browser.
 
+## 🧠 Notes  
 
+- This project is not responsive and is intended for desktop use.
+- Built for learning purposes.
+- No affiliation with JSpiders.
+
+## 📬 Author  
+
+Made with ❤️ by [Pritam Premi](https://github.com/pritampremi)
