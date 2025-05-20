@@ -1,0 +1,324 @@
+        nav{ 
+            display: flex;
+            align-items: center;
+            padding: 5px 10px;
+            font-family: "Lato", sans-serif;
+        }
+        nav a{
+           text-decoration:none;
+           font-size: 20px;
+           margin-right: 15px;
+           color: black;
+        }
+        nav a:hover{
+            color: orange;
+        }
+        nav img{
+            height: 50px;
+            margin-right: auto;
+        }
+         .parent{
+            display: flex;
+            margin-bottom: 2px;
+        }
+        .container{
+            padding: 10px 10px;
+            display: inline;
+            color: white;
+            position: relative;
+            margin-right: auto;
+        }
+        .child{
+            position: absolute;
+            background-color: white;
+            display: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            width: max-content;
+            z-index: 1;
+            line-height: 2;
+        }
+        a{
+            text-decoration: none;
+            display: block;
+            color: black;
+        }
+        .container:hover>.child{
+            display: block;
+            margin-top: 15px;
+            box-shadow: 0px 0px 2px gray;
+        }
+        #c1{
+             background-color: lightcoral;
+        }
+        #c2{
+             background-color: teal;
+        }
+        #c3{
+             background-color: royalblue;
+        }
+        #c4{
+             background-color: gray;
+        }
+        #c5{
+             background-color: indianred;
+        }
+        #c6{
+             background-color: steelblue;
+        }
+        #c7{
+             background-color: forestgreen;
+        }
+        #c8{
+             background-color: darkorchid;
+        }
+        #c9{
+             background-color: darksalmon;
+        }
+        #c10{
+             background-color: olive;
+        }
+        #c11{
+             background-color: rgb(214, 198, 48);
+        }
+        #c12{
+             background-color: rgb(66, 129, 129);
+        }
+        #c13{
+             background-color: rgb(192, 3, 3);
+        }
+        #c14{
+             background-color: dodgerblue;
+        }
+        #c15{
+             background-color: rgb(52, 52, 22);
+        }
+
+        .box{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .boxitem{
+            width: 470px;
+            height: 340px;
+            box-shadow: 0px 0px 3px grey;
+            border-radius: 0px 0px 5px 5px;
+            text-align: center;
+            color: orange;
+            font-family:Arial, Helvetica, sans-serif;
+            padding: 0px 10px 0px 10px;
+        }
+        #bx1{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/tech.jpg);
+          background-size: cover; 
+        }
+        #bx1 p{
+          text-align: start;
+          color: white;
+          font-size: 17px;
+          padding: 8px;
+        }
+        #bx2 a{
+          background-color: rgb(240, 235, 235);
+          font-weight: 700;
+          color: rgb(76, 75, 75);
+          padding: 10px 5px;
+          text-align: start;
+          margin: 0px 7px;
+        }
+        #bx2>a>span{
+          color: orange;
+        }
+        #bx3 p{
+          background-color: rgb(58, 58, 58);
+          color: white;
+          padding: 3px;
+          margin: 0px 10px;
+        }
+        #bx3 div{
+          display: flex;
+          justify-content: center;
+          margin: 5px;
+          gap: 5px;
+        }
+        #bx3 div a{
+          background-color:orange;
+          color: white;
+          padding: 9px 15px;
+          border-radius: 2px;
+          font-size: small;
+          font-weight: 700;
+        }
+        #bx3>.year>.y{
+          background-color: #5a7670;
+        }
+        #bx3 .hire a{
+          background-color: #5a7670;
+          font-size: medium;
+          margin-top: 10px;
+        }
+        .star{
+          display: flex;
+          justify-content: space-evenly;
+          gap: 15px;
+          margin: 20px 0px;
+        }
+        .staritem{
+          height: 125px;
+          width: 320px;
+          border-radius: 0px 0px 5px 5px;
+          box-shadow: 0px 0px 5px gray;
+          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .staritem header{
+          background-color: rgb(68, 68, 68);
+          padding: 1px;
+          text-align: center;
+        }
+        .staritem p{
+          color: orange;
+          font-size: 15px;
+          font-weight: 700;
+          text-align: center;
+        }
+        .staritem div{
+          text-align: center;
+          font-size: 17px;
+          padding: 10px 20px;
+          color: rgb(72, 71, 71);
+        }
+        .course{
+          height: 180px;
+          width: 1300px;
+          margin: 10px auto;
+          border-radius: 0px 0px 5px 5px;
+          box-shadow: 0px 0px 5px gray;
+          font-family: "Lato", sans-serif;
+          text-align: center;
+        }
+        .course header{
+          background-color: #45605a;
+          color: white;
+          text-align: center;
+        }
+        .course header p{
+          padding: 15px;
+          font-size: large;
+          font-weight: 600;
+        }
+        .course span{
+          color: orange;
+          font-size: large;
+          font-weight: 600;
+        }
+        .cname{
+          display: flex;
+          justify-content: center;
+          padding: 10px;
+          gap: 10px;
+        }
+        .cname .sub{
+          color: white;
+          padding: 10px;
+          background-color: #45605a;
+          font-family: "Lato", sans-serif;
+          font-weight: 600;
+          border-radius: 5px;
+        }
+        .card{
+          width: 1300px;
+          display: flex;
+          flex-wrap: wrap;
+          margin: 20px auto;
+          gap: 20px;
+        }
+        .carditem{
+          width: 420px;
+          height: 285px;
+          box-shadow: 0px 0px 5px rgb(183, 182, 182);
+          border-radius: 5px;
+          font-family: "Lato", sans-serif;
+          display: flex;
+          flex-direction: column;
+        }
+        .carditem header{
+          display: flex;
+          justify-content: space-between;
+          padding: 20px;
+          background-color: whitesmoke;
+          box-shadow: 0px 0px 3px rgb(198, 195, 195);
+          border-radius: 3px;
+          color: orange;
+          font-weight: 600;
+        }
+        .carditem header img{
+          height: 20px;
+          width: 20px;
+        }
+        .carditem .content{
+          width: 420px;
+          height: 170px;
+          flex: 1;
+        }
+        .carditem p{
+           color: rgb(72, 71, 71);
+           padding: 2px 10px;
+           font-size: 17px;
+           line-height: 23px;
+           max-width: 100%;
+           max-height: 100%;
+        }
+        .carditem footer{
+          display: flex;
+          gap: 2px;
+          justify-content: space-between;
+        }
+        .carditem footer div{
+          width: 200px;
+          background-color: #45605a;
+          color: white;
+          padding: 10px;
+          text-align: center;
+          border-radius: 2px;
+          font-size: small;
+          font-weight: 600;
+        }
+        .company{
+          display: flex;
+          margin-top: 0;
+          margin-bottom: 40px;
+        }
+        .company img{
+          height: 100pxpx;
+          width: 167px;
+        }
+        #footer{
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          background-color: white;
+          display: flex;
+          justify-content: space-between;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-weight: 600;
+          font-size: large;
+          padding: 10px;
+          color: orange;
+          border-top: 2px solid rgb(242, 242, 242);
+        }
+        #footer>.div1{
+          display: flex;
+          gap: 20px;
+          padding: 5px;
+        }
+        #footer>.div2{
+          display: flex;
+          gap: 20px;
+          padding: 5px;
+          margin-right: 20px;
+        }
+        #footer>.div2 a{
+          color: orange;
+        }
+        
