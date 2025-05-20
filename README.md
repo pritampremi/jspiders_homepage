@@ -10,6 +10,7 @@ This is a **static clone** of the homepage of the [JSpiders](https://jspiders.co
 
 ## 📷 Preview
 
+![JSpiders Clone Screenshot](jshome.png)
 
 
 ## 📁 Technologies Used
